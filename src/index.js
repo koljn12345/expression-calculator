@@ -74,7 +74,7 @@ function CheckBreckets(expr) {
 
 function CheckDivisionZero(expr) {    
     if(expr[expr.indexOf(0)-1]=='/')
-    throw new Error('TypeError: Devision by zero.');
+    throw new Error('TypeError: Division by zero.');
 }
 
 function expressionCalculator(expr) {
